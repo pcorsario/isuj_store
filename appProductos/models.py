@@ -6,7 +6,7 @@ class Categoria(models.Model):
 
     def __str__(self):
         return self.nombre
-
+#Este es un comentario de prueba de git by Jesus Murillo
 class Producto(models.Model):
     nombre = models.CharField(max_length=100)
     descripcion = models.TextField()
